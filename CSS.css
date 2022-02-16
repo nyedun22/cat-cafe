@@ -1,0 +1,195 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-column {
+  width: 800px;
+}
+.navagation {
+  border-style: solid solid dotted solid;
+  border-width: 0.5px;
+  border-color: rgb(190, 189, 189);
+  background: rgb(243, 248, 250);
+}
+.topleft {
+  padding-left: 0px;
+}
+.topright {
+  padding-right: 2rem;
+}
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-position: center;
+  height: 250px;
+  background-image: url("Cat.jpg");
+  position: relative;
+}
+.navagation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: underline;
+  padding: 0.5rem 0px;
+}
+.icon {
+  margin-left: 3rem;
+}
+.icon2 {
+  margin-right: 1rem;
+}
+h1 {
+  color: rgb(15, 15, 15);
+  background-color: white;
+  border: 1px dotted;
+  padding: 0px 12px;
+  font-family: "Teko", cursive;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: rgb(0, 9, 12);
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  margin: 0px;
+}
+.midsection {
+  border-bottom: 2px dashed;
+  border-color: pink;
+  margin-top: 10px;
+}
+h2 {
+  display: inline-block;
+  color: rgb(119, 116, 118);
+  font-family: "Architects Daughter", cursive;
+  transform: rotateY(10deg);
+}
+
+.wiggle {
+  animation-name: wiggle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes wiggle {
+  0% {
+    transform: none;
+  }
+  5% {
+    transform: rotateZ(-10deg);
+  }
+  10% {
+    transform: rotateZ(10deg);
+  }
+  15% {
+    transform: rotateZ(-5deg);
+  }
+  20% {
+    transform: rotateZ(5deg);
+  }
+  25% {
+    transform: none;
+  }
+}
+.move {
+  display: inline-block;
+  position: relative;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    left: 25%;
+    transform: translateX(0px);
+  }
+  50% {
+    left: 75%;
+    transform: translateX(-100%);
+  }
+  100% {
+    left: 25%;
+    transform: translateX(0px);
+  }
+}
+.catsintro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+h3 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(87, 41, 25);
+}
+p {
+  font-family: "Architects Daughter", cursive;
+  font-size: 14px;
+}
+.parabegin {
+  display: flex;
+  justify-content: flex-start;
+}
+.iconpara {
+  padding: 14px;
+}
+.footer {
+  color: rgb(128, 124, 124);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 1px dotted rgb(201, 201, 201);
+  padding-top: 1rem;
+}
+.trademark {
+  font-weight: bold;
+  color: rgb(59, 57, 57);
+}
+.footermid {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-decoration: underline;
+}
+.break {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.footer2end {
+  text-decoration: underline;
+}
+.footerright {
+  text-decoration: underline;
+  margin-right: 30px;
+}
+.biscof {
+  font-family: "Architects Daughter", cursive;
+  color: rgb(87, 41, 25);
+  font-size: 13px;
+  padding-left: 3rem;
+  margin-top: 0.1px;
+}
+.rolo {
+  font-family: "Architects Daughter", cursive;
+  color: rgb(87, 41, 25);
+  font-size: 13px;
+  padding-left: 3rem;
+  margin-top: 0.1px;
+}
+.oreo {
+  font-family: "Architects Daughter", cursive;
+  color: rgb(87, 41, 25);
+  font-size: 13px;
+  padding-left: 3rem;
+  margin-top: 0.1px;
+}
+.border {
+  border-style: solid;
+  border-color: pink;
+}
