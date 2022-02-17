@@ -12,6 +12,9 @@ body {
   border-color: rgb(190, 189, 189);
   background: rgb(243, 248, 250);
 }
+.navagation a {
+  color: black;
+}
 .topleft {
   padding-left: 0px;
 }
