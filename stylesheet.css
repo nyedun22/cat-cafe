@@ -2,25 +2,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Architects Daughter", cursive;
 }
-.main-column {
-  width: 800px;
+.content {
+  width: 100%;
+  height: 800px;
+  overflow: scroll;
 }
 .navagation {
-  border-style: solid solid dotted solid;
+  border-style: solid;
   border-width: 0.5px;
   border-color: rgb(190, 189, 189);
   background: rgb(243, 248, 250);
+  border-color: transparent;
 }
 .navagation a {
   color: black;
 }
-.topleft {
-  padding-left: 0px;
-}
-.topright {
-  padding-right: 2rem;
-}
+
 .heading-container {
   display: flex;
   align-items: center;
@@ -36,7 +35,6 @@ body {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  font-family: "Architects Daughter", cursive;
   text-decoration: underline;
   padding: 0.5rem 0px;
 }
@@ -148,29 +146,10 @@ p {
   justify-content: space-between;
   width: 100%;
   margin-top: 1rem;
-  border-top: 1px dotted rgb(201, 201, 201);
+  border-top: 1px solid rgb(201, 201, 201);
   padding-top: 1rem;
 }
-.trademark {
-  font-weight: bold;
-  color: rgb(59, 57, 57);
-}
-.footermid {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  text-decoration: underline;
-}
-.break {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-.footer2end {
-  text-decoration: underline;
-}
-.footerright {
-  text-decoration: underline;
-  margin-right: 30px;
-}
+
 .biscof {
   font-family: "Architects Daughter", cursive;
   color: rgb(87, 41, 25);
