@@ -175,3 +175,18 @@ p {
   border-style: solid;
   border-color: pink;
 }
+#contact-heading-one {
+  height: 30px;
+  width: 200px;
+  background-color: pink;
+}
+#contact-heading-two {
+  height: 30px;
+  width: 200px;
+  background-color: pink;
+}
+#contact-heading-three {
+  height: 30px;
+  width: 200px;
+  background-color: pink;
+}
