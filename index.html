@@ -21,28 +21,26 @@
     <div class="content">
       <div class="navagation">
         <div class="icon"><i class="fas fa-paw"></i></div>
-          <a href="./index.html">Home</a>
-          <a href="./menu.html">Menu</a>
-          <a href="./contactpage.html">Contact Us</a>
-          <a href="./bookings.html">Bookings</a>
+        <a href="./index.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./contactpage.html">Contact Us</a>
+        <a href="./bookings.html">Bookings</a>
+        <div class="icon2">
           <i class="fas fa-bars"></i>
+        </div>
       </div>
-
-
       <div class="heading-container">
         <h1>CFG CAT CAFE</h1>
       </div>
       <div class="midsection"></div>
-      <div>
-        <div class="move">
-          <h2>
-            <div class="wiggle">About us</div>
-          </h2>
-        </div>
-
-        <div class="midsection"></div>
-
-        <div>
+      <div class="move">
+        <h2>
+          <div class="wiggle">About us</div>
+        </h2>
+      </div>
+      <div class="midsection"></div>
+      <div class="main-column">
+        <div class="allparagraphs">
           <div class="parabegin">
             <div class="iconpara">
               <i class="fas fa-cat"></i>
@@ -71,48 +69,63 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="catsintro">
-        <div class="border">
-          <img
-            src="cream-cat.jpg"
-            alt="icecream"
-            style="width: 210px; height: 200px"
-          />
-          <h3>Biscoff</h3>
-          <ul class="biscof">
-            <li>3-year-old boy</li>
-            <li>Cuddly and friendly</li>
-          </ul>
-        </div>
-        <div class="border">
-          <img src="Rolo.jpg" alt="rolo" style="width: 210px; height: 200px" />
-          <h3>Rolo</h3>
-          <ul class="rolo">
-            <li>2-year-old girl</li>
-            <li>Active and outgoing</li>
-          </ul>
-        </div>
-        <div class="border">
-          <img src="Oreo.jpg" alt="OREO" style="width: 210px; height: 200px" />
-          <h3>Oreo</h3>
-          <ul class="oreo">
-            <li>2.5 year-old boy</li>
-            <li>Gentle and shy</li>
-          </ul>
-        </div>
-      </div>
-     <footer class="footer">
-      <p>©CFG Cat Cafe 2022</p>
-      <p>Contact us<p>
-      <p>FAQs</p>
-    </footer>
-        
+        <div class="catsintro">
+          <div class="border">
+            <img
+              src="cream-cat.jpg"
+              alt="icecream"
+              style="width: 210px; height: 200px"
+            />
+            <h3>Biscoff</h3>
+            <ul class="biscof">
+              <li>3-year-old boy</li>
+              <li>Cuddly and friendly</li>
+            </ul>
+          </div>
+          <div class="border">
+            <img
+              src="Rolo.jpg"
+              alt="rolo"
+              style="width: 210px; height: 200px"
+            />
+            <h3>Rolo</h3>
+            <ul class="rolo">
+              <li>2-year-old girl</li>
+              <li>Active and outgoing</li>
+            </ul>
+          </div>
+          <div class="border">
+            <img
+              src="Oreo.jpg"
+              alt="OREO"
+              style="width: 210px; height: 200px"
+            />
+            <h3>Oreo</h3>
+            <ul class="oreo">
+              <li>2.5 year-old boy</li>
+              <li>Gentle and shy</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-
-
-
+    <footer class="footer">
+      <p>©CFG Cat Cafe 2022</p>
+      <p>Contact us</p>
+      <p>FAQs</p>
+      <button onclick="myFunction()">Subscribe</button>
+    </footer>
+    <script>
+      function myFunction() {
+        alert("Would you like to subscribe to our news and offers?");
+        var answer = prompt("Yes or No");
+        if (answer.toLowerCase().startsWith("y")) {
+          prompt("Please ener your email:", "e.g.cfgcatcafe@gmail.com");
+          alert("😻 Thanks for subscribing! 😻");
+        } else {
+          alert("May be next time!");
+        }
+      }
+    </script>
   </body>
 </html>
