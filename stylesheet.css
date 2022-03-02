@@ -202,8 +202,9 @@ p {
   font-weight: 600;
   font-size: 20px;
   font-family: "Archeticts Daughter";
+  text-align: center;
   letter-spacing: 8px;
-  
+  margin: 10px;  
 }
 
 .footer {
