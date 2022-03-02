@@ -22,13 +22,19 @@ body {
   border-color: rgb(190, 189, 189);
   background: rgb(243, 248, 250);
   border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  text-decoration: underline;
+  padding: 0.5rem 0px;
 }
 
 .navagation a {
   color: black;
 }
 
-.heading-container {
+.heading {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,22 +47,10 @@ body {
   position: relative;
 }
 
-.navagation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  text-decoration: underline;
-  padding: 0.5rem 0px;
-}
-
 .icon {
   margin-left: 3rem;
 }
 
-.icon2 {
-  margin-right: 1rem;
-}
 
 h1 {
   color: rgb(15, 15, 15);
@@ -76,7 +70,7 @@ h1 {
 }
 
 .midsection {
-  border-bottom: 2px dashed;
+  border-bottom: 2px solid;
   border-color: pink;
   margin-top: 10px;
 }
@@ -86,6 +80,11 @@ h2 {
   color: rgb(119, 116, 118);
   font-family: "Architects Daughter", cursive;
   transform: rotateY(10deg);
+  font-size: 35px;
+}
+
+p {
+  text-align: center;
 }
 
 .wiggle {
@@ -138,49 +137,32 @@ h2 {
   }
 }
 
-.allparagraphs {
+.container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.catsintro {
+.cats {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+ 
+
 }
 
-h3 {
-  font-family: "Architects Daughter", cursive;
-  font-size: 15px;
-  text-align: center;
-  color: rgb(87, 41, 25);
-}
 
 p {
   font-family: "Architects Daughter", cursive;
   font-size: 14px;
+  text-align: center;
 }
 
-.parabegin {
-  display: flex;
-  justify-content: flex-start;
-}
 
-.iconpara {
-  padding: 14px;
-}
 
-.footer {
-  color: rgb(128, 124, 124);
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-top: 1rem;
-  border-top: 1px solid rgb(201, 201, 201);
-  padding-top: 1rem;
-}
 
-.biscof {
+
+.cats {
   font-family: "Architects Daughter", cursive;
   color: rgb(87, 41, 25);
   font-size: 13px;
@@ -188,26 +170,21 @@ p {
   margin-top: 0.1px;
 }
 
-.rolo {
-  font-family: "Architects Daughter", cursive;
-  color: rgb(87, 41, 25);
-  font-size: 13px;
-  padding-left: 3rem;
-  margin-top: 0.1px;
+.container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+}
+.cat-container img {
+  width: 210px; 
+  height: 200px;
 }
 
-.oreo {
-  font-family: "Architects Daughter", cursive;
-  color: rgb(87, 41, 25);
-  font-size: 13px;
-  padding-left: 3rem;
-  margin-top: 0.1px;
-}
 
-.border {
-  border-style: solid;
-  border-color: pink;
-}
+
 
 #contact-heading-one {
   height: 30px;
@@ -225,4 +202,14 @@ p {
   height: 30px;
   width: 200px;
   background-color: pink;
+}
+
+.footer {
+  color: rgb(128, 124, 124);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 1px solid rgb(201, 201, 201);
+  padding-top: 1rem;
 }
