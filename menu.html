@@ -24,91 +24,71 @@
         <a href="./index.html">Home</a>
         <a href="./menu.html">Menu</a>
         <a href="./contactpage.html">Contact Us</a>
-        <a href="./bookings.html">Bookings</a>
         <div class="icon2">
           <i class="fas fa-bars"></i>
         </div>
       </div>
-      <div class="heading-container">
-        <h1>CFG CAT CAFE</h1>
+      <div class="heading">
+        <h1>CFG CAT CAFE </h1>
       </div>
 
-      <div class="header">
-        <h2>Cat Cafe Menu</h2>
+      <div class="move">
+        <h2><div class="wiggle">We take bookings and walk-ins!</div></h2>
       </div>
-      <ul>
-        <li>
-          <a href="#pizza"><span class="category">PIZZA</span></a>
-        </li>
-        <li>
-          <a href="#sides"><span class="category">SIDES</span></a>
-        </li>
+     
+      
 
-        <li>
-          <a href="#drinks"><span class="category">DRINKS</span></a>
-        </li>
-      </ul>
-      <div class="category" id="pizza">
-        <table>
-          <tr>
-            <th>Pizza</th>
-            <th>Description</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>Mama's Margerita</td>
-            <td>Mozzerella and san marzano tomatoes</td>
-            <td>£10.00</td>
-          </tr>
-          <tr>
-            <td>Chilli heat</td>
-            <td>Spicy chorizo and red chilli peppers</td>
-            <td>£13.00</td>
-          </tr>
-        </table>
+
+
+      <div class="main-column"></div>
+
+      <div class="buttons">
+        <ul>
+          <a href=#sides><li id="st">STARTERS</li></a>
+          <a href=#sides><li id="mn">MAINS</li></a>
+          <a href=#sides><li id="dr">DRINKS</li></a>
+          <a href=#sides><li id="co">COCKTAILS</li></a>
+        </ul>
+
       </div>
-      <br />
-      <div class="category" id="sides">
-        <table>
-          <tr>
-            <th>Side</th>
-            <th>Description</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>Chips</td>
-            <td>Hand cut, twice fried chips</td>
-            <td>£3.50</td>
-          </tr>
-          <tr>
-            <td>Salad</td>
-            <td>Tomatoes, Lettice, Cucumber, Beetroot</td>
-            <td>£3.50</td>
-          </tr>
-        </table>
+
+      <section class="description" id="sides">
+        <h1>Starters:</h1>
+        <p><i class="fas fa-cat"></i> Garlic bread foccacia <span id="price">£4.00</span> </p>
+        <p><i class="fas fa-cat"></i> Chips <span id="price">£4.00</span> </p>
+        <p><i class="fas fa-cat"></i> Mixed leaf salad <span id="price">£4.00</span> </p>
+      </section>
+
+      <section class="description" id="mains">
+        <h1>Main dishes:</h1>
+        <p><i class="fas fa-cat"></i> Mama's Margerita: Mozzerella and san marzano tomatoes. <span id="price">£10.00</span> </p>
+        <p><i class="fas fa-cat"></i> Chilli heat: Spicy chorizo and red chilli peppers <span id="price">£12.50</span> </p>
+        <p><i class="fas fa-cat"></i> Lady & The Tramp: A big plate of spaghetti and meatballs for 2 (vegan alternatives available) <span id="price">£13.00</span> </p>
+        <p><i class="fas fa-cat"></i> Under the sea: Mixed seafood risotto with clams, prawns, mussels, garlic, chilli <span id="price">£15.00</span> </p>
+
+      </section>
+
+      <section class="description" id="drinks">
+        <h1>Non-alcoholic drinks</h1>
+        <p><i class="fas fa-cat"></i> Coca-cola<span id="price">£1.50</span> </p>
+        <p><i class="fas fa-cat"></i> Lemonade <span id="price">£4.00</span> </p>
+        <p><i class="fas fa-cat"></i> Mango Juice <span id="price">£4.00</span> </p>
+      </section>  
+   
+     
+      <section class="description" id="cocktails">
+        <h1>Cocktails</h1>
+        <p><i class="fas fa-cat"></i> The cat that got the cream <span id="price">£9.00</span> </p>
+        <p><i class="fas fa-cat"></i> The Aristocat <span id="price">£9.00</span> </p>
+        <p><i class="fas fa-cat"></i> Puss in boots <span id="price">£9.00</span> </p>
+        <p><i class="fas fa-cat"></i> Purrr-secco <span id="price">£7.00 glass/ 20 bottle</span> </p>
+      </section>  
       </div>
-      <br />
-      <div class="category" id="drinks">
-        <table>
-          <tr>
-            <th>Drink</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>Coca Cola</td>
-            <td>£2.00</td>
-          </tr>
-          <tr>
-            <td>Lemonade</td>
-            <td>£2.00</td>
-          </tr>
-          <tr>
-            <td>Latte</td>
-            <td>£2.50</td>
-          </tr>
-        </table>
-      </div>
-    </div>
+
+
+
+    
+  
 
     <footer class="footer">
       <p>©CFG Cat Cafe 2022</p>
@@ -116,4 +96,72 @@
       <p>FAQs</p>
     </footer>
   </body>
+
+  <script>
+    document
+      .getElementById("st")
+      .addEventListener("mouseover", function () {
+        document.getElementById("st").style.backgroundColor =
+          "lightblue";
+      });
+    document
+      .getElementById("st")
+      .addEventListener("mouseout", function () {
+        document.getElementById("st").style.backgroundColor =
+          "pink";
+      });
+    document
+      .getElementById("mn")
+      .addEventListener("mouseover", function () {
+        document.getElementById("mn").style.backgroundColor =
+          "lightblue";
+      });
+    document
+      .getElementById("mn")
+      .addEventListener("mouseout", function () {
+        document.getElementById("mn").style.backgroundColor =
+          "pink";
+      });
+    document
+      .getElementById("dr")
+      .addEventListener("mouseover", function () {
+        document.getElementById("dr").style.backgroundColor =
+          "lightblue";
+      });
+    document
+      .getElementById("dr")
+      .addEventListener("mouseout", function () {
+        document.getElementById("dr").style.backgroundColor =
+          "pink";
+      });
+      document
+      .getElementById("co")
+      .addEventListener("mouseover", function () {
+        document.getElementById("co").style.backgroundColor =
+          "lightblue";
+      });
+    document
+      .getElementById("co")
+      .addEventListener("mouseout", function () {
+        document.getElementById("co").style.backgroundColor =
+          "pink";
+      });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
+
+

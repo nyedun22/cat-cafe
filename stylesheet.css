@@ -4,6 +4,7 @@ body {
   align-items: center;
   font-family: "Architects Daughter", cursive;
   margin: 0px;
+  
 }
 
 .content {
@@ -19,8 +20,8 @@ body {
 .navagation {
   border-style: solid;
   border-width: 0.5px;
-  border-color: rgb(190, 189, 189);
-  background: rgb(243, 248, 250);
+  border-color: transparent;
+  background: pink;
   border-color: transparent;
   display: flex;
   align-items: center;
@@ -28,10 +29,12 @@ body {
   justify-content: space-between;
   text-decoration: underline;
   padding: 0.5rem 0px;
+  color: white;
+  
 }
 
 .navagation a {
-  color: black;
+  color: white;
 }
 
 .heading {
@@ -45,46 +48,57 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  text-align: center;
+}
+
+.heading h1 {
+  background-color: pink;
+  color: #FFF;
+  font-family: 'Architects Daughter';
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 20px;
+  margin-top: 200px; 
+  letter-spacing: 6px;
+  
+}
+
+.navagation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  text-decoration: underline;
+  padding: 0.5rem 0px;
 }
 
 .icon {
   margin-left: 3rem;
 }
 
+.icon2 {
+  margin-right: 1rem;
+}
 
 h1 {
-  color: rgb(15, 15, 15);
-  background-color: white;
-  border: 1px dotted;
-  padding: 0px 12px;
-  font-family: "Teko", cursive;
-  font-weight: 200;
-  text-align: center;
-  text-shadow: rgb(0, 9, 12);
-  position: absolute;
-  right: 15px;
-  bottom: 10px;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  margin: 0px;
+  background-color: pink;
+  color: #FFF;
 }
 
 .midsection {
-  border-bottom: 2px solid;
+  border-bottom: 2px dashed;
   border-color: pink;
   margin-top: 10px;
 }
 
 h2 {
   display: inline-block;
-  color: rgb(119, 116, 118);
+  color: pink;
   font-family: "Architects Daughter", cursive;
   transform: rotateY(10deg);
-  font-size: 35px;
-}
-
-p {
-  text-align: center;
+  font-size: 40px;
 }
 
 .wiggle {
@@ -137,54 +151,76 @@ p {
   }
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.description {
+  padding: 30px;
+}
+.description p {
+  font-size: 20px;
+  align-items: center;
 }
 
-.cats {
+.allparagraphs {
+  display: flex;
+  flex-direction: column;
+}
+
+.catsintro {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
- 
-
 }
 
+h3 {
+  font-family: "Architects Daughter", cursive;
+  background-color: pink;
+  color: #FFF
+
+}
 
 p {
   font-family: "Architects Daughter", cursive;
   font-size: 14px;
-  text-align: center;
+}
+
+.parabegin {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.iconpara {
+  padding: 14px;
+}
+
+.buttons ul li {
+  display: inline-block;
+  background-color:pink;
+  list-style: none;
+  width: 200px; 
+  padding: 20px 10px; 
+  margin-bottom: 3px;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Archeticts Daughter";
+  letter-spacing: 8px;
+  
+}
+
+.footer {
+  color: rgb(128, 124, 124);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 1px solid rgb(201, 201, 201);
+  padding-top: 1rem;
 }
 
 
-
-
-
-.cats {
-  font-family: "Architects Daughter", cursive;
-  color: rgb(87, 41, 25);
-  font-size: 13px;
-  padding-left: 3rem;
-  margin-top: 0.1px;
+.border {
+  border-style: solid;
+  border-color: pink;
 }
-
-.container {
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-
-
-}
-.cat-container img {
-  width: 210px; 
-  height: 200px;
-}
-
-
-
 
 #contact-heading-one {
   height: 30px;
@@ -202,14 +238,4 @@ p {
   height: 30px;
   width: 200px;
   background-color: pink;
-}
-
-.footer {
-  color: rgb(128, 124, 124);
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-top: 1rem;
-  border-top: 1px solid rgb(201, 201, 201);
-  padding-top: 1rem;
 }
