@@ -4,7 +4,6 @@ body {
   align-items: center;
   font-family: "Architects Daughter", cursive;
   margin: 0px;
-  
 }
 
 .content {
@@ -12,7 +11,7 @@ body {
 }
 
 .main-column {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0px auto;
   padding: 0px 8px;
 }
@@ -30,7 +29,6 @@ body {
   text-decoration: underline;
   padding: 0.5rem 0px;
   color: white;
-  
 }
 
 .navagation a {
@@ -53,16 +51,15 @@ body {
 
 .heading h1 {
   background-color: pink;
-  color: #FFF;
-  font-family: 'Architects Daughter';
+  color: #fff;
+  font-family: "Architects Daughter";
   font-size: 40px;
   font-weight: 300;
   line-height: 40px;
   width: 68%;
   padding: 20px;
-  margin-top: 200px; 
+  margin-top: 200px;
   letter-spacing: 6px;
-  
 }
 
 .navagation {
@@ -84,7 +81,7 @@ body {
 
 h1 {
   background-color: pink;
-  color: #FFF;
+  color: #fff;
 }
 
 .midsection {
@@ -173,8 +170,7 @@ h2 {
 h3 {
   font-family: "Architects Daughter", cursive;
   background-color: pink;
-  color: #FFF
-
+  color: #fff;
 }
 
 p {
@@ -193,18 +189,18 @@ p {
 
 .buttons ul li {
   display: inline-block;
-  background-color:pink;
+  background-color: pink;
   list-style: none;
-  width: 200px; 
-  padding: 20px 10px; 
+  width: 200px;
+  padding: 20px 10px;
   margin-bottom: 3px;
-  color: #FFF;
+  color: #fff;
   font-weight: 600;
   font-size: 20px;
   font-family: "Archeticts Daughter";
   text-align: center;
   letter-spacing: 8px;
-  margin: 10px;  
+  margin: 10px;
 }
 
 .footer {
@@ -216,7 +212,6 @@ p {
   border-top: 1px solid rgb(201, 201, 201);
   padding-top: 1rem;
 }
-
 
 .border {
   border-style: solid;
